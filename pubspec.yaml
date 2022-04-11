@@ -1,0 +1,24 @@
+name: dartsuss
+description: A sample command-line application.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.16.1 <3.0.0'
+
+
+# dependencies:
+#   path: ^1.8.0
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
+dependencies: 
+  flutter: 
+    sdk: flutter
+    version: ^0.0.0
+  http: ^0.13.4
+  path_provider: ^2.0.9
+flutter:
+  assets:
+     - assets/
